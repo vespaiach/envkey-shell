@@ -12,12 +12,15 @@ npm install envkey-shell --save
 yarn install envkey-shell -S
 ```
 
-Create a `.env` file
+Create a `.env` file and add `ENVKEY`
 ```
+// This is a sample key. Please use your own key.
 ENVKEY=Gssszx5zGsdEVS4osdf112-779ifSm9ki9Yb8123
 ```
 
-Sample using with next.js.
+**Examples:**
+
+Using with next.js.
 ```
 package.json
 {
@@ -27,3 +30,22 @@ package.json
 }
 ```
 
+Using with vue.js.
+```
+package.json
+{
+    "scripts": {
+        "serve": "envkey-shell vue-cli-service serve",
+    }
+}
+```
+
+Using with react-scripts.
+```
+package.json
+{
+    "scripts": {
+        "serve": "envkey-shell react-scripts start",
+    }
+}
+```
