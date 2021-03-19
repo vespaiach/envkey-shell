@@ -1,3 +1,13 @@
+[![NPM version][npm-image]][npm-url] [![Star][star-image]][repo-url] [![Issue][issue-image]][issue-url]
+
+[star-image]:https://img.shields.io/github/stars/vespaiach/envkey-shell?style=flat-square
+[issue-image]:https://img.shields.io/github/issues/vespaiach/envkey-shell?style=flat-square
+[issue-url]:https://github.com/vespaiach/envkey-shell/issues
+[npm-url]:https://www.npmjs.com/package/envkey-shell
+[npm-image]:https://img.shields.io/github/v/release/vespaiach/envkey-shell?style=flat-square
+[repo-url]:https://github.com/vespaiach/envkey-shell
+
+
 # envkey-shell
 
 The [envkey-node](https://github.com/envkey/envkey-node) library doesn't support a shell command, so when using `envkey` with `next.js`, we have to import `envkey` library in a custom server file.

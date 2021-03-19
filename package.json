@@ -1,12 +1,13 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "envkey-shell",
-    "description": "Run envkey lib from shell",
+    "description": "Import and execute envkey library from shell command",
     "author": "Toan Nguyen nta.toan@gmail.com",
     "keywords": [
-        "cross-environment",
-        "environment variable",
-        "windows"
+        "envkey",
+        "command",
+        "next.js",
+        "shell"
     ],
     "license": "MIT",
     "dependencies": {
@@ -21,5 +22,12 @@
         "node": ">=10.14",
         "npm": ">=6",
         "yarn": ">=1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vespaiach/envkey-shell"
+    },
+    "bugs": {
+        "url": "https://github.com/vespaiach/envkey-shell/issues"
     }
 }
