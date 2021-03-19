@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "name": "envkey-shell",
+    "description": "Run envkey lib from shell",
+    "author": "Toan Nguyen nta.toan@gmail.com",
+    "keywords": [
+        "cross-environment",
+        "environment variable",
+        "windows"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "cross-spawn": "^7.0.3",
+        "envkey": "^1.2.9"
+    },
+    "main": "index.js",
+    "bin": {
+        "envkey-shell": "bin/envkey-shell.js"
+    },
+    "engines": {
+        "node": ">=10.14",
+        "npm": ">=6",
+        "yarn": ">=1"
+    }
+}
