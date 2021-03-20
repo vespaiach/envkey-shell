@@ -4,7 +4,7 @@
 [issue-image]:https://img.shields.io/github/issues/vespaiach/envkey-shell?style=flat-square
 [issue-url]:https://github.com/vespaiach/envkey-shell/issues
 [npm-url]:https://www.npmjs.com/package/envkey-shell
-[npm-image]:https://img.shields.io/github/v/release/vespaiach/envkey-shell?style=flat-square
+[npm-image]:https://img.shields.io/npm/v/envkey-shell?style=flat-square
 [repo-url]:https://github.com/vespaiach/envkey-shell
 
 
